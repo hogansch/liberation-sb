@@ -1,0 +1,67 @@
+@@keyframes  h1 {
+  from {opacity: 0}
+  to {opacity: 1}
+
+}
+
+.item1 {
+  font-family: 'Lato';
+  background-color: skyblue;
+  display: grid;
+  grid-template-columns: 35% 35% auto;
+  grid-template-rows: 33% auto;
+  grid-template-areas:
+    "masthead masthead masthead"
+    "jumbotron jumbotron main-nav-bar";
+  height: 750px;
+}
+
+.masthead {
+  grid-area: masthead;
+  justify-self: center;
+}
+
+.view-area {
+  grid-area: jumbotron;
+  border: solid black 10px;
+  background-color: white;
+  background-image: url("../libsb-img1.jpeg");
+  background-size: 900px;
+  background-repeat: no-repeat;
+  background-position: -30px
+}
+
+.main-nav-bar {
+  grid-area: main-nav-bar;
+  font-size: 30px;
+}
+
+li {
+  list-style-type: none;
+  padding-top: 30px;
+}
+
+li:hover {
+  background-color: black;
+  color: skyblue;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 150px;
+  letter-spacing: 25px;
+  margin-bottom: -30px;
+  font-weight: bolder;
+  animation-name: heading-animation;
+  animation duration: 3s;
+}
+
+h2 {
+  letter-spacing: 25px;
+  font-size: 55px;
+  text-align: center
+}
+
+img {
+  max-height: 400px;
+}
