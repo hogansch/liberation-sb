@@ -1,0 +1,120 @@
+html {
+  font-family: 'Cabin', sans-serif;
+  background: skyblue;
+
+}
+
+a {
+  text-decoration: none;
+}
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: black;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  width: 90%;
+  justify-content: flex-end;
+}
+
+.top-navbar {
+}
+
+li {
+  margin: 10px;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: white;
+  text-shadow:  -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, 4px 4px 3px lightgray;
+  border-bottom: black solid 5px;
+}
+
+.events {
+  display: flex;
+  margin: 20px;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 5em;
+}
+
+h2 {
+  color: white;
+  font-size: 3.5rem;
+  text-shadow:  -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, 4px 4px 3px lightgray;
+  box-shadow: 0 0 6px 10px white;
+}
+
+img {
+  max-height: 100px;
+  margin: 30px;
+  box-shadow: 0 0 6px 10px white;
+}
+
+.first-section {
+  background-size: 2000px;
+  border-top: black solid 5px;
+  border-bottom: black solid 5px;
+}
+
+.padding-left {
+  padding-left: 30px;
+
+}
+
+.half-page {
+  max-width: 40%;
+  padding: 10px;
+  border-radius: 2%;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.padding-top {
+  padding-top: 30px;
+}
+
+h4 {
+  color: black;
+  text-shadow:  -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  font-size: 1.5rem;
+
+}
+
+h3 {
+  color: black;
+  text-shadow:  -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  font-size: 1.5rem;
+}
+
+.white-border {
+    box-shadow: 0 0 6px 10px white;
+    border-radius: 2%;
+
+}
+
+.border-box {
+  display: inline-block;
+}
+
+.margin-left {
+  margin-left: 5%
+}
+
+.medium-box {
+  max-width: 70%;
+  font-size: 1.1rem;
+}
