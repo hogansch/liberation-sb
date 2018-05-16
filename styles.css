@@ -96,16 +96,12 @@ h1 {
   background-color: white;
   opacity: .9;
   border-radius: 5% 5%;
-  margin-bottom: 15%
+  margin-bottom: 25%
 
 }
 
 .bold {
   font-weight: bold;
-}
-
-#contact:hover {
-
 }
 
 a {
@@ -116,4 +112,28 @@ a:visited,
 a:hover,
 a:active {
   color: black;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .banner {
+      display: block;
+      justify-content: center;
+    }
+
+    .top-navbar {
+      display: none;
+    }
+
+    img {
+      margin-left: 40%;
+    }
+
+    .events {
+      max-width: 90%;
+    }
+
+    #lib {
+      margin-left: 20%
+    }
 }
